@@ -32,13 +32,13 @@ export default class Rentas {
         return this._fechaEntrega;
     }
 
-    getFecha1AsString() {
+    getfechaInicio1AsString() {
         let fechaUno = this._fechaInicio.getDate() + "/" + this._fechaInicio.getMonth() + "/" + this._fechaInicio.getFullYear();
     
         return fechaUno;
     }
 
-    getFecha2AsString() {
+    getEntregaAsString() {
         let fechaDos = this._fechaEntrega.getDate() + "/" + this._fechaEntrega.getMonth() + "/" + this._fechaEntrega.getFullYear();
     
         return fechaDos;

@@ -29,6 +29,6 @@ export default class Resumen {
         this._tableInfo.rows[1].cells[1].innerHTML = this._sumDays;
 
     }
-    }
+}
 
 
